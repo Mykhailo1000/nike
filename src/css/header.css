@@ -1,0 +1,29 @@
+.header_list {
+    color: #C7C7C7;
+    font-family: Roboto;
+    line-height: normal;
+    list-style: none; 
+
+    gap: 29px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_items a {
+    color: #C7C7C7;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.header {
+    background: #012D63;
+}
+
+.header_language {
+    text-decoration: none;
+}
+
