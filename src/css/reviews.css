@@ -1,0 +1,85 @@
+.reviews {
+    background-image: url(../img/background_reviews.png)
+}
+
+.reviews_item_john {
+    list-style: none;
+    background-image: url(../img/background_John.png);
+    border-radius: 15px;
+    background: linear-gradient(135deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.50%, #CC5EC2 100%);
+    box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+
+}
+
+.reviews_item_elizabeth {
+    list-style: none;
+    background-image: url(../img/background_Elizabeth.png);
+    border-radius: 15px;
+    background: linear-gradient(135deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.50%, #CC5EC2 100%);
+    box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+}
+
+.reviews_item_tom {
+    list-style: none;
+    background-image: url(../img/background_tom.png);
+    border-radius: 15px;
+    background: linear-gradient(135deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+    box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
+}
+
+.reviews_item_p_1 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.reviews_date {
+    color: #D8D8D8;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.reviews_wrapper {
+    border-radius: 31px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.reviews_title_name {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Join_date-date {
+    color: #D8D8D8;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.reviews_title {
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.reviews_list {
+    gap: 93px;
+    display: flex;
+    justify-items: space-between;
+}

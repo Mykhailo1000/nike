@@ -1,0 +1,25 @@
+.works {
+    background-image: url(../img/background_PQ_IP.png)
+}
+
+.works_item_title {
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+
+}
+
+.works_item {
+    list-style: none;
+}
+
+.works_list {
+    gap: 29px;
+    display: flex;
+    justify-items: space-between;
+}

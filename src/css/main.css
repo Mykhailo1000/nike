@@ -1,3 +1,48 @@
 .main {
     background-image: url(../img/background_body.png);
 }
+
+.main_wrapper_title {
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 144px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main_wrapper_p_1 {
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main_wrapper_p_2 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main_btn {
+    width: 254px;
+    height: 67px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    background: #8E32C6;
+    border: none;
+
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
