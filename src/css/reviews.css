@@ -1,5 +1,10 @@
 .reviews {
-    background-image: url(../img/background_reviews.png)
+    background-image: url(../img/background_reviews.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 25px 0 ;
+    height: 520px;
 }
 
 .reviews_item_john {
@@ -47,7 +52,7 @@
 
 .reviews_wrapper {
     border-radius: 31px;
-background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
 .reviews_title_name {
@@ -82,4 +87,5 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     gap: 93px;
     display: flex;
     justify-items: space-between;
+    justify-items: center;
 }

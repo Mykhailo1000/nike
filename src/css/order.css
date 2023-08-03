@@ -1,0 +1,46 @@
+.order {
+    background-image: url(../img/background_order.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 21px 0 37px 0;
+    height: 509px;
+}
+
+.order_item {
+    list-style: none;
+    color: #959595;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.order_title {
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.order_btn {
+    border-radius: 16px;
+    background: #8E32C6;
+    border: none;
+    padding: 20px 49px 20px 48px;
+
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+
+.order_item {
+    border-radius: 50px;
+    background: #FFF;
+}

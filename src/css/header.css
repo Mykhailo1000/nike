@@ -9,7 +9,7 @@
     justify-content: space-between;
 }
 
-.header_items a {
+.header_items a .header_language_a {
     color: #C7C7C7;
     font-family: Roboto;
     font-size: 24px;
@@ -25,4 +25,20 @@
 
 .header_language {
     text-decoration: none;
+}
+ 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_menu {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.header_nike_icon {
+    display: flex;
 }

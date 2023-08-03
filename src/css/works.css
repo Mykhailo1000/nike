@@ -1,5 +1,10 @@
 .works {
-    background-image: url(../img/background_PQ_IP.png)
+    background-image: url(../img/background_PQ_IP.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 105px 0;
+    height: 606px;
 }
 
 .works_item_title {
@@ -19,7 +24,7 @@
 }
 
 .works_list {
-    gap: 29px;
+    gap: 145px;
     display: flex;
     justify-items: space-between;
 }

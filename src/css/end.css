@@ -1,0 +1,38 @@
+.end {
+    background: #021635;
+    background-repeat: no-repeat;
+}
+
+.end_item_p_1 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.end_item_a_1 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.end_item_p_2 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.end_line {
+    width: 1110px;
+    height: 1px;
+    background: #9B9B9B;
+}
