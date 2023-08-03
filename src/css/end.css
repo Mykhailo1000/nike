@@ -1,6 +1,9 @@
 .end {
     background: #021635;
     background-repeat: no-repeat;
+    background-size: cover;
+    padding: 45px 0  24px 0;
+    height: 292px;
 }
 
 .end_item_p_1 {
@@ -20,6 +23,7 @@
     font-weight: 400;
     line-height: normal;
     text-decoration-line: underline;
+    float: right;
 }
 
 .end_item_p_2 {

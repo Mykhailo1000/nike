@@ -14,6 +14,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin: 0;
 }
 
 .main_wrapper_p_1 {
@@ -23,6 +24,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin: 0;
 }
 
 .main_wrapper_p_2 {
@@ -49,6 +51,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: 183px;
 }
 
 .main_text_NI {
@@ -58,4 +61,5 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin: 0;
 }

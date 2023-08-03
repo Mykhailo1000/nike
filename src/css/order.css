@@ -37,7 +37,9 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;    
+    line-height: normal;  
+    display: flex;
+    justify-content: cener;
 }
 
 .order_item {
