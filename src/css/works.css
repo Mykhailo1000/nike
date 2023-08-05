@@ -16,7 +16,7 @@
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
-
+    margin: 0;
 }
 
 .works_item {
@@ -24,7 +24,7 @@
 
     border-right: 1px solid #FFF;
     height: 346px;
-    padding-right: 95px;
+    padding: 7px 63px;
 }
 
 .works_item:last-child {
@@ -32,12 +32,12 @@
 }
 
 .works_list {
-    gap: 145px;
+    justify-content: center;
     display: flex;
-    justify-items: space-between;
 
     stroke-width: 5px;
     stroke: #8E32C6;
     border: 5px solid #8E32C6;
-    padding: 22px 50px 19px 50px;
+    height: 396px;
+    align-items: center;
 }
