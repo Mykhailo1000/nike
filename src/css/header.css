@@ -1,6 +1,5 @@
 .header_list {
     color: #C7C7C7;
-    font-family: Roboto;
     line-height: normal;
     list-style: none; 
 
@@ -11,7 +10,6 @@
 
 .header_items a .header_language_a {
     color: #C7C7C7;
-    font-family: Roboto;
     font-size: 24px;
     font-style: normal;
     font-weight: 300;
@@ -21,10 +19,14 @@
 
 .header {
     background: #012D63;
+    padding: 16px 0 17px 0;
+    height: 93px;
 }
 
 .header_language {
-    text-decoration: none;
+    display: flex;
+    width: 81px;
+    justify-content: space-between;
 }
  
 .header {
@@ -41,4 +43,28 @@
 
 .header_nike_icon {
     display: flex;
+}
+
+.header_link {
+    color: #C7C7C7;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.header_link:hover {
+    color: #FFF;
+    font-weight: 400;
+}
+
+.header_language_link {
+    color: #DCDCDC;
+}
+
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

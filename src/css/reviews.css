@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 25px 0 ;
+    padding: 25px 0 114px 0;
     height: 520px;
 }
 
@@ -11,6 +11,7 @@
     list-style: none;
     background-image: url(../img/background_John.png);
     border-radius: 15px;
+    padding: 49px 14px 29px 13px;
     background: linear-gradient(135deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.50%, #CC5EC2 100%);
     box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
 
@@ -20,6 +21,7 @@
     list-style: none;
     background-image: url(../img/background_Elizabeth.png);
     border-radius: 15px;
+    padding: 49px 14px 29px 13px;
     background: linear-gradient(135deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.50%, #CC5EC2 100%);
     box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
 }
@@ -28,6 +30,7 @@
     list-style: none;
     background-image: url(../img/background_tom.png);
     border-radius: 15px;
+    padding: 49px 14px 29px 13px;
     background: linear-gradient(135deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
     box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
 }
@@ -84,8 +87,7 @@
 }
 
 .reviews_list {
-    gap: 93px;
     display: flex;
-    justify-items: space-between;
+    justify-content: space-between;
     justify-items: center;
 }
