@@ -1,4 +1,4 @@
-.end {
+.footer {
     background: #021635;
     background-repeat: no-repeat;
     background-size: cover;
@@ -6,25 +6,43 @@
     height: 292px;
 }
 
-.end_item_p_1 {
+.footer_quastion {
     color: #FFF;
+    font-family: Roboto;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-.end_item_a_1 {
+.footer_item_link {
     color: #FFF;
+    font-family: Roboto;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-decoration-line: underline;
-    float: right;
 }
 
-.end_item_p_2 {
+.footer_table tbody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_table tr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.footer_table {
+    width: 100%;
+}
+
+.footer_item_p {
     color: #FFF;
     font-family: Roboto;
     font-size: 18px;
@@ -33,21 +51,32 @@
     line-height: normal;
 }
 
-.end_line {
-    width: 1110px;
-    height: 1px;
-    background: #9B9B9B;
+.footer_line {
+    width: 100%;
+    border: 1px solid #9B9B9B;
+    margin-top: 20px;
+    margin-bottom: 24px;
 }
 
-.end_icon_p {
-    float: right;
-}
-
-.end_icon_p {
+.footer_logo_p {
     color: #FFF;
     font-family: PT Serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+
+    position: absolute;
+    left: 1020px;
+    top: -60px;
+}
+
+.footer_logo {
+    position: relative;
+}
+
+.footer_icon {
+    position: absolute;
+    left: 1000px;
+    top: -100px;
 }
