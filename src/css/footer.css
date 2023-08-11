@@ -66,9 +66,9 @@
     font-weight: 400;
     line-height: normal;
 
-    position: absolute;
+/*     position: absolute;
     left: 1020px;
-    top: -60px;
+    top: -60px; */
 }
 
 .footer_logo {
@@ -76,7 +76,7 @@
 }
 
 .footer_icon {
-    position: absolute;
+/*     position: absolute;
     left: 1000px;
-    top: -100px;
+    top: -100px; */
 }
