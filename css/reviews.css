@@ -1,5 +1,5 @@
 .reviews {
-    background-image: url(../img/background_reviews.png);
+    background-image: url(../src/img/background_reviews.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -94,6 +94,6 @@
 }
 
 .reviews_bg {
-    background: url(../img/reviews_flower.png) bottom left no-repeat;
+    background: url(../src/img/reviews_flower.png) bottom left no-repeat;
     padding: 25px 0 115px 0;
 }

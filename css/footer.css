@@ -3,7 +3,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 45px 0  24px 0;
-    height: 292px;
 }
 
 .footer_quastion {
@@ -66,17 +65,21 @@
     font-weight: 400;
     line-height: normal;
 
-/*     position: absolute;
-    left: 1020px;
-    top: -60px; */
+    position: absolute;
+    bottom: -39px;
+    right: 29px;
 }
 
 .footer_logo {
     position: relative;
 }
 
+.footer_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .footer_icon {
-/*     position: absolute;
-    left: 1000px;
-    top: -100px; */
+    height: 81px;
 }
