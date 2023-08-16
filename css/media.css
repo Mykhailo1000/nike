@@ -17,12 +17,102 @@
         width: 720px;
         margin: 0 auto;
     }
+
+    .header_nike_icon {
+        width: 85px;
+    }
+
+    .header_menu {
+        gap: 45px;
+    }
+
+    .header_list {
+        gap: 20px;
+    }
+
+    .header_link {
+        font-size: 17px;
+    }
+
+    .header_language {
+        width: 60px;
+    }
+
+    .works_item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 7px 25px;
+    }
+
+    .works_item_title {
+        font-size: 36px;
+    }
+
+    .works_item_img {
+        width: 190px;
+    }
+
+    .reviews_item {
+        width: 225px;
+        padding: 49px 9px 29px 10px;
+    }
+
+    .reviews_item_descr {
+        font-size: 21px;
+    }
+
+    .footer_quastion {
+        font-size: 21px;
+    }
 }
 
 @media(max-width: 768px) {
     .container {
         width: 540px;
         margin: 0 auto;
+    }
+
+    .header
+
+    .main_wrapper_title {
+        font-size: 120px;
+    }
+    
+    .main_wrapper_subtitle {
+        font-size: 60px;
+    }
+
+    .main_wrapper_descr {
+        font-size: 14px;
+    }
+
+    .works_list {
+        height: 312px;
+    }
+
+    .works_item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 7px 25px;
+        height: 260px;
+    }
+
+    .works_item_title {
+        font-size: 28px;
+    }
+
+    .works_item_img {
+        width: 140px;
+    }
+
+    .reviews_item_descr {
+        font-size: 20px;
+    }
+
+    .reviews_item {
+        width: 173px;
     }
 }
 
