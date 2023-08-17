@@ -73,8 +73,6 @@
         margin: 0 auto;
     }
 
-    .header
-
     .main_wrapper_title {
         font-size: 120px;
     }
@@ -114,6 +112,32 @@
     .reviews_item {
         width: 173px;
     }
+
+    .footer_item_link {
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration-line: none;
+    }
+
+    .footer_quastion {
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .footer_table tbody {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer_table tr {
+        align-items: flex-end;
+    }
 }
 
 @media(max-width: 576px) {
@@ -122,7 +146,25 @@
         margin: 0 auto;
     }
 
-    .hamburger {
+    .hamburger_menu {
+        display: block;
+    }
+
+    .header {
         display: none;
+    }
+
+    .order_form_wrapper input[type="button"] {
+        display: none;
+    }
+
+    .order_form input[type="text"] {
+        width: 500px;
+        height: 50px;
+    }
+
+    .order_form_wrapper {
+        width: 500px;
+        height: 50px;
     }
 }
