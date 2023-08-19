@@ -73,6 +73,36 @@
         margin: 0 auto;
     }
 
+
+    .hamburger span {
+        border-radius: 1px;
+        background: #8e32c6;
+        border-radius: 4px;
+        margin-bottom: 5px;
+        transition: 0.5s;
+        display: block;
+    }
+
+    .hamburger span:nth-child(1) {
+        width: 45px;
+    }
+
+    .hamburger span:nth-child(2) {
+        width: 33px;
+    }
+
+    .hamburger span:nth-child(3) {
+        width: 18px;
+    }
+
+    .hamburger {
+        height: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 4px;
+    }
+
     .main_wrapper_title {
         font-size: 120px;
     }
@@ -113,6 +143,32 @@
         width: 173px;
     }
 
+    .order_form_wrapper input[type="button"] {
+        display: none;
+    }
+
+    .order_form input[type="text"] {
+        width: 500px;
+        height: 50px;
+    }
+
+    .order_form_wrapper {
+        width: 500px;
+        height: 50px;
+    }
+
+    .order_form input {
+        font-size: 18px;
+    }
+
+    .order_form_wrapper input[type="email"] {
+        font-size: 18px;
+    }
+    
+    .order_form_wrapper input[type="button"] {
+        font-size: 18px;
+    }
+
     .footer_item_link {
         color: #FFF;
         font-size: 14px;
@@ -135,9 +191,19 @@
         align-items: flex-start;
     }
 
-    .footer_table tr {
+    .footer_table tr:nth-child(2) {
         align-items: flex-end;
+        align-self: end;
     }
+
+    .footer .container {
+        padding: 0 27px 0 28px;
+    }
+
+    .footer_item_p {
+        font-size: 14px;
+    }
+
 }
 
 @media(max-width: 576px) {
@@ -154,6 +220,23 @@
         display: none;
     }
 
+    .main_btn {
+        padding: 0 62px 0 60px;
+    }
+    
+    .main_wrapper_descr {
+        font-size: 14px;
+    }
+
+    .main_wrapper_subtitle {
+        font-size: 36px;
+    }
+
+    .main_wrapper_title {
+        font-size: 64px;
+        margin: 0;
+    }
+
     .order_form_wrapper input[type="button"] {
         display: none;
     }
@@ -166,5 +249,52 @@
     .order_form_wrapper {
         width: 500px;
         height: 50px;
+    }
+
+    .order_form input {
+        font-size: 18px;
+    }
+
+    .order_form_wrapper input[type="email"] {
+        font-size: 18px;
+    }
+    
+    .order_form_wrapper input[type="button"] {
+        font-size: 18px;
+    }
+    
+    .footer_item_link {
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration-line: none;
+    }
+
+    .footer_quastion {
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .footer_table tbody {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer_table tr:nth-child(2) {
+        align-items: flex-end;
+        align-self: end;
+    }
+
+    .footer .container {
+        padding: 0 27px 0 28px;
+    }
+
+    .footer_item_p {
+        font-size: 14px;
     }
 }
