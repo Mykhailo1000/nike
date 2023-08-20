@@ -84,9 +84,10 @@
         align-items: center;
         justify-content: center;
         gap: 58px;
-        left: 0;
+        left: -100%;
         z-index: 5;
         transition: 0.5s;
+        top: 0;
     }
 
     .works_list {
@@ -143,6 +144,11 @@
         flex-direction: column;
         align-items: flex-end;
         gap: 4px;
+        z-index: 20;
+    }
+
+    .menu_active {
+        left: 0;
     }
 
     .main_wrapper_title {
@@ -303,7 +309,7 @@
     }
 
     .order_form input {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .order_form_wrapper input[type="email"] {
@@ -347,5 +353,103 @@
 
     .footer_item_p {
         font-size: 14px;
+    }
+
+    .header_menu {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        opacity: 0.9;
+        background: #021635;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 58px;
+        left: -100%;
+        z-index: 5;
+        transition: 0.5s;
+        top: 0;
+    }
+
+    .works_list {
+        border: none;
+    }
+
+    .works_item {
+        border: 5px solid #8E32C6;
+        width: 207px;
+        padding: 25px 0 0 0;
+        position: relative;
+    }
+
+    .works_item_img {
+        width: 240px;
+        position: absolute;
+    }
+
+    .works_item_title {
+        position: absolute;
+        top: 25px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .header_list {
+        flex-direction: column;
+        gap: 57px;
+        align-items: center;
+    }
+
+    .hamburger span {
+        border-radius: 1px;
+        background: #8e32c6;
+        display: block;
+        height: 5px;
+    }
+
+    .hamburger span:nth-child(1) {
+        width: 45px;
+    }
+
+    .hamburger span:nth-child(2) {
+        width: 33px;
+    }
+
+    .hamburger span:nth-child(3) {
+        width: 18px;
+    }
+
+    .hamburger {
+        height: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 4px;
+        z-index: 20;
+    }
+
+    .menu_active {
+        left: 0;
+    }
+
+    .works_list {
+        height: 312px;
+    }
+
+    .works_item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 7px 25px;
+        height: 260px;
+    }
+
+    .works_item_title {
+        font-size: 28px;
+    }
+
+    .works_item_img {
+        width: 140px;
     }
 }
