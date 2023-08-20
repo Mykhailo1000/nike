@@ -73,6 +73,10 @@
         margin: 0 auto;
     }
 
+    .works_list {
+        border: none;
+    }
+
     .header {
         background: rgba(0, 0, 0, 0); 
         position: absolute; 
