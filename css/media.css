@@ -73,6 +73,13 @@
         margin: 0 auto;
     }
 
+    .header {
+        background: rgba(0, 0, 0, 0); 
+        position: absolute; 
+        top: 0; 
+        width: 95%;
+    }
+
     .header_menu {
         position: fixed;
         width: 100%;
@@ -91,7 +98,9 @@
     }
 
     .works_list {
-        border: none;
+        flex-wrap: wrap;
+        gap: 30px;
+        height: auto;
     }
 
     .works_item {
@@ -102,8 +111,8 @@
     }
 
     .works_item_img {
-        width: 240px;
-        position: absolute;
+        bottom: 0;
+        left: 6px;
     }
 
     .works_item_title {
@@ -145,6 +154,9 @@
         align-items: flex-end;
         gap: 4px;
         z-index: 20;
+        position: absolute;
+        top: 33px;
+        right: 5px;
     }
 
     .menu_active {
@@ -163,10 +175,6 @@
         font-size: 14px;
     }
 
-    .works_list {
-        height: 312px;
-    }
-
     .works_item {
         display: flex;
         flex-direction: column;
@@ -175,12 +183,19 @@
         height: 260px;
     }
 
+    .works_item:last-child {
+        border: #8E32C6;
+    }
+
     .works_item_title {
-        font-size: 28px;
+        position: absolute;
+        top: 5px;
+        left: 50%;
+        transform: translate(-50%);
     }
 
     .works_item_img {
-        width: 140px;
+        width: 180px;
     }
 
     .reviews_item_descr {
@@ -252,6 +267,45 @@
         font-size: 14px;
     }
 
+    .works_item:last-child {
+        border: 5px solid #8E32C6;
+    }
+
+    .works {
+        height: auto;
+    }
+
+    .works .works_list {
+        height: auto;
+    }
+
+    .reviews_list {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: space-around;
+    }
+
+    .reviews_item {
+        width: 250px;
+    }
+
+    .main .container {
+        padding: 0 25px;
+    }
+
+    .header .container {
+        padding: 0 18px;
+    }
+
+    .header_nike_icon {
+        display: none;
+    }
+
+    .main_logo {
+        position: absolute;
+        left: 18px;
+        top: 5px;
+    }
 }
 
 @media(max-width: 576px) {
@@ -260,12 +314,16 @@
         margin: 0 auto;
     }
 
-    .hamburger_menu {
-        display: block;
+    .header {
+        background: rgba(0, 0, 0, 0); 
+        position: absolute; 
+        top: 0; 
+        width: 95%;
     }
 
-    .header {
-        display: none;
+    .works_list {
+        flex-wrap: wrap;
+        gap: 30px;
     }
 
     .main_btn {
@@ -281,6 +339,7 @@
     }
 
     .main_wrapper_title {
+        line-height: 155px;
         font-size: 64px;
         margin: 0;
     }
